@@ -4,8 +4,8 @@
   "description": "Progressive Web App that sample.",
   "icons": [
       {
-          "src": "icons/icon-128.png",
-          "sizes": "128x128",
+          "src": "icons/icon-497.png",
+          "sizes": "497x497",
           "type": "image/png",
           "purpose": "any"
       }
