@@ -1,33 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- PWA用マニフェストファイル読み込み -->
-    <link rel="manifest" href="samplepwa.webmanifest">
-
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="app.css">
-
-    <!-- ServiceWorkerの登録 -->
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
-                .then((reg) => { /* console.log('SW registered.', reg); */ });
-        }
-    </script>
+<html>
+  <head>
+    <meta charset="utf-8">
     <title>Sample PWA</title>
-</head>
-<body>
-    <div>
-        This pase is Sample PWA.
-    </div>
-    <div>
-        <button class="add-button">ホーム画面に追加</button>
-    </div>
-
-    <script src="app.js"></script>
-</body>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <link rel="manifest" href="manifest.webmanifest">
+  </head>
+  <body>
+    <img src="images/fox1.jpg" alt="a fox picture">
+    <button class="add-button">Add to home screen</button>
+  </body>
 </html>
