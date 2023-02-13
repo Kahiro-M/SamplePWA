@@ -6,9 +6,36 @@
     <link href="style.css" rel="stylesheet">
     <script src="index.js" defer></script>
     <link rel="manifest" href="manifest.webmanifest">
+    <script src="jquery-3.6.3.min.js"></script>
   </head>
   <body>
-    <h1>Sample PWA</h1>    
-    <button class="add-button">Add to home screen</button>
+    <h1>Sample PWA</h1>
+    <form action="" method="POST">
+      <div>
+        <label class="in_url" for="url">URL</label>
+        <input class="in_url" type="text" size="300" name="url" value="" maxlength="255" value="https://www.genmaikoso.co.jp/member/login/ctl.asp"><span></span>
+      </div>
+      <div>
+        <label class="in_id_name" for="in_id_name">ID Name属性</label>
+        <input class="in_id_name" type="text" size="10" name="in_id_name" value=""><span></span>
+        <label class="in_id" for="in_id">ID</label>
+        <input class="in_id" type="text" size="30" name="in_id" value=""><span>（半角英数字）</span>
+      </div>
+      <div>
+        <label class="in_pw_name" for="in_pw_name">PW Name属性</label>
+        <input class="in_pw_name" type="text" size="10" name="in_pw_name" value=""><span></span>
+        <label class="in_pw" for="LoginPass">PW</label>
+        <input class="in_pw" type="Password" size="30" name="in_pw" value="">
+      </div>
+      <div>
+        <label class="in_hd_name" for="in_hd_name">Hidden Name属性</label>
+        <input class="in_hd_name" type="text" size="10" name="in_hd_name" value=""><span></span>
+        <label class="in_hd" for="in_hd">PW</label>
+        <input class="in_hd" type="text" size="30" name="in_hd" value="">
+      </div>
+      <div>
+        <button>ログインする</button>
+      </div>
+    </form>
   </body>
 </html>
