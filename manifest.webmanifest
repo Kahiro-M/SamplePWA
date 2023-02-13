@@ -1,15 +1,16 @@
 {
-  "background_color": "purple",
-  "description": "Shows random fox pictures. Hey, at least it isn't cats.",
-  "display": "fullscreen",
+  "name": "Sample Progressive Web App",
+  "short_name": "SamplePWA",
+  "description": "Progressive Web App that sample.",
   "icons": [
-    {
-      "src": "icons/fox-icon.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
+      {
+          "src": "icons/icon-128.png",
+          "sizes": "128x128",
+          "type": "image/png"
+      }
   ],
-  "name": "Awesome fox pictures",
-  "short_name": "Foxes",
-  "start_url": "./index.html"
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "theme_color": "#FF6600",
+  "background_color": "#f2bc99"
 }
