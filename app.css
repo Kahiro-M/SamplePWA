@@ -1,0 +1,10 @@
+.add-button {
+    font-size: 100%;
+    margin: 1em 0 0;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
